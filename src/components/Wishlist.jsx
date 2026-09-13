@@ -55,7 +55,14 @@ function CategoryBlock({ cat }) {
         <p className="eyebrow cat-eyebrow">{cat.title}</p>
       </Reveal>
       <Reveal delay={0.08}>
-        <p className="cat-blurb">{cat.blurb}</p>
+        {cat.urgent ? (
+          <div className="urgent-head">
+            <span className="urgent-stamp">i really need these</span>
+            <p className="cat-blurb cat-blurb-urgent">{cat.blurb}</p>
+          </div>
+        ) : (
+          <p className="cat-blurb">{cat.blurb}</p>
+        )}
       </Reveal>
       <div className="items">
         {cat.items.map((it, i) => (

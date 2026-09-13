@@ -6,6 +6,12 @@ export default function Payment() {
   const qrValue = `GCash ${config.accountNumber} | Birthday gift for ${config.name}`
   return (
     <section className="section pay" id="gift">
+      <Reveal delay={0}>
+        <p className="pay-kind">
+          If you cannot give me anything, it&rsquo;s okay. I made this website as a
+          fun project for family only. It is the thought that counts.
+        </p>
+      </Reveal>
       <Reveal rotate="rotate(-1.5deg)" className="inline-block">
         <p className="eyebrow">prefer to just send it?</p>
       </Reveal>
@@ -35,11 +41,8 @@ export default function Payment() {
           <div className="pay-info">
             <p className="pay-label">PAY VIA</p>
             <p className="pay-app">{config.payVia}</p>
-            <p className="pay-number">{config.accountNumber}</p>
+            <p className="pay-number">message me!</p>
             <p className="pay-note">{config.payNote}</p>
-            <p className="pay-tiny">
-              Finding &ldquo;send money&rdquo; is half the fun. Typing the number works too.
-            </p>
           </div>
         </div>
       </Reveal>

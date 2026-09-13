@@ -5,9 +5,9 @@ export const config = {
   birthdayDate: "1999-09-25",
   currency: "₱",
   payVia: "GCash",
-  // TODO: replace with Spencer's real GCash number when ready
+  // placeholder until Spencer shares his real GCash number
   accountNumber: "09000000000",
-  payNote: "Send me a heads-up, I'll scream thank you.",
+  payNote: "This QR is a placeholder. Don't scan it, it leads nowhere.",
 }
 
 export const top = {
@@ -54,6 +54,7 @@ export const categories = [
     id: "shoes",
     title: "Shoes",
     blurb: "Badly need. My current pair is on its last legs.",
+    urgent: true,
     items: [
       {
         title: "New Balance 530",
