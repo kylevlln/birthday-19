@@ -14,8 +14,7 @@ export default function Grades() {
       </Reveal>
       <Reveal delay={0.16}>
         <p className="section-body">
-          Not flexing — showing you these gifts go somewhere. Every new part of
-          my setup is fuel for the next exam. Here&rsquo;s the current scoreboard:
+          Every gift turns into better numbers.
         </p>
       </Reveal>
 
@@ -23,13 +22,16 @@ export default function Grades() {
         {grades.map((sem, i) => (
           <Reveal key={sem.sem} delay={0.08 * i} y={28}>
             <div className="sem-card">
-              <p className="sem-name">{sem.sem}</p>
-              <span className="sem-gwa">{sem.gwa}</span>
-              <ul>
+              <div className="sem-head">
+                <p className="sem-name">{sem.sem}</p>
+                <span className="sem-gwa" data-live={sem.gwa === "prelims"}>
+                  {sem.gwa === "prelims" ? "PRELIMS" : `GWA ${sem.gwa}`}
+                </span>
+              </div>
+              <ul className="sem-rows">
                 {sem.rows.map(([subject, grade]) => (
                   <li key={subject}>
                     <span className="sem-subject">{subject}</span>
-                    <span className="sem-dots" aria-hidden="true"></span>
                     <span className="sem-grade">{grade}</span>
                   </li>
                 ))}
@@ -41,7 +43,7 @@ export default function Grades() {
 
       <Reveal delay={0.2}>
         <p className="grades-footnote">
-          Y2S1 is still in prelims &mdash; the final columns are filling up as we speak.
+          Y2S1 is still in prelims. The final scores are filling up now.
         </p>
       </Reveal>
     </section>

@@ -83,10 +83,10 @@ export default function Wishlist() {
       <Featured />
       <div className="cat-head">
         <Reveal className="inline-block">
-          <p className="eyebrow">the rest of the wishlist</p>
+          <p className="eyebrow">the wishlist</p>
         </Reveal>
         <Reveal delay={0.1}>
-          <h2>The categories</h2>
+          <h2>And the rest</h2>
         </Reveal>
       </div>
       {categories.map((c) => (

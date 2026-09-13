@@ -23,49 +23,41 @@ export default function Privacy() {
         </p>
 
         <P n={1}>
-          <b>What we collect.</b> Nothing. This site is a wishlist. The only
-          data inside it is a list of things I want and my grades. It does not
-          track you, spy on you, or sell your immortal soul.
+          <b>What we collect.</b> Nothing. It&rsquo;s a wishlist, not a
+          blackmail file.
         </P>
 
         <P n={2}>
-          <b>Cookies.</b> We do not use tracking cookies. There may be crumbs
-          in the keyboard area but those are mine, from studying.
+          <b>Cookies.</b> No tracking cookies. Only crumbs from studying.
         </P>
 
         <P n={3}>
-          <b>What happens if you send money.</b> It goes exactly where this
-          list says it goes. I will use it to buy the items, then I will study
-          harder, and I will update this site with even better grades. That is
-          the whole loop.
+          <b>If you send money.</b> It goes exactly where the list says. Then I
+          study harder and this site gets even better grades.
         </P>
 
         <P n={4}>
-          <b>Your data rights.</b> Since we don&rsquo;t have your data, the only
-          rights involved are your bragging rights for being a great tita/tito
-          or sibling.
+          <b>Your data rights.</b> We have none of your data. You have bragging
+          rights.
         </P>
 
         <P n={5}>
-          <b>Third parties.</b> GCash handles the money. That&rsquo;s it. If you
-          scan the QR you are dealing with my GCash account and my screaming
-          gratitude, in that order.
+          <b>Third parties.</b> GCash moves the money. That&rsquo;s the whole
+          chain.
         </P>
 
         <P n={6}>
-          <b>Emotional policy.</b> We are not liable for any feelings of being
-          the favorite aunt, uncle, or sibling this year. Complaints will be
-          answered with a thank-you text within 24 hours.
+          <b>Emotional policy.</b> Complaints are answered with a thank-you
+          text within 24 hours.
         </P>
 
         <P n={7}>
-          <b>No refunds.</b> Returns are only accepted in the form of hugs.
-          Expires shortly after my birthday.
+          <b>No refunds.</b> Returns are accepted only as hugs, expiring
+          shortly after my birthday.
         </P>
 
         <p className="legal-sign">
-          Signed with love, plenty of caffeine, and fully by me — {""}
-          <b>Spencer.</b>
+          Signed with love, caffeine, and fully by me, <b>Spencer.</b>
         </p>
       </div>
     </main>

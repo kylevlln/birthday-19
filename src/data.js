@@ -7,7 +7,7 @@ export const config = {
   payVia: "GCash",
   // TODO: replace with Spencer's real GCash number when ready
   accountNumber: "09000000000",
-  payNote: "Send me a heads-up so I can say thank you!",
+  payNote: "Send me a heads-up, I'll scream thank you.",
 }
 
 export const top = {
@@ -18,77 +18,73 @@ export const top = {
       title: "Corsair CX650 PSU",
       price: 3300,
       img: "products/corsair-cx650.jpg",
-      note: "Brand-new usually runs higher — 2nd hand is totally fine, I just need it loud and reliable.",
+      note: "New is pricey. 2nd hand is fine, as long as it's reliable.",
     },
     {
       title: "RX 6600 (or RTX 3060)",
       price: 9800,
       img: "products/rx6600.jpg",
-      note: "Listed at 2nd-hand price. An RTX 3060 works too and costs a little more (~₱11,500).",
+      note: "2nd hand price. RTX 3060 works too, around ₱11,500.",
     },
   ],
-  blurb:
-    "The main build for the sem. GPU can be 2nd hand to keep it kind to the budget — anything helps me finish this PC.",
+  blurb: "Finishing this PC is the whole goal. 2nd hand keeps the budget kind.",
 }
 
 export const categories = [
   {
     id: "pants",
     title: "Pants",
-    blurb:
-      "I'm down to the last two pairs that pass the school uniform policy — these help me show up comfy and presentable.",
+    blurb: "Only two pairs survive the uniform policy. Time to fix that.",
     items: [
       {
         title: "Denim Shorts",
         price: 300,
         img: "products/denim-shorts.jpg",
-        note: "Straight-leg knee-length — the everyday summer pair.",
+        note: "Straight-leg knee-length. The everyday summer pair.",
       },
       {
         title: "Quick-Dry Sports Pants",
         price: 430,
         img: "products/quickdry-pants.jpg",
-        note: "3D-printed quick-dry, breathable — good for commute and gym.",
+        note: "Breathable quick-dry. Great for commute and gym.",
       },
     ],
   },
   {
     id: "shoes",
     title: "Shoes",
-    blurb:
-      "Badly need. My pair's on its last legs and I live on my feet between home, commute, and school.",
+    blurb: "Badly need. My current pair is on its last legs.",
     items: [
       {
         title: "New Balance 530",
         price: 500,
         img: "products/nb530.jpg",
-        note: "The classic white/silver — goes with everything.",
+        note: "The white/silver classic. Goes with everything.",
       },
       {
         title: "Nike P6000",
         price: 900,
         img: "products/p6000.jpg",
-        note: "Lightweight runner that looks tougher than its price.",
+        note: "Lightweight runner, tougher than its price.",
       },
     ],
   },
   {
     id: "shirts",
     title: "Shirt",
-    blurb:
-      "Street Kiddos boxy cropped tees — just want both colors to rotate through the week.",
+    blurb: "Street Kiddos boxy cropped tees. Want both colors.",
     items: [
       {
         title: "Boxy Cropped Tee · Black",
         price: 200,
         img: "products/tee-black.jpg",
-        note: "One black, one white — two fits, zero thinking.",
+        note: "The dark one.",
       },
       {
         title: "Boxy Cropped Tee · White",
         price: 200,
         img: "products/tee-white.jpg",
-        note: "One black, one white — two fits, zero thinking.",
+        note: "The clean one.",
       },
     ],
   },

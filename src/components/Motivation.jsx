@@ -14,11 +14,8 @@ export default function Motivation() {
       </Reveal>
       <Reveal delay={0.16}>
         <p className="section-body">
-          Every item on this list is something I&rsquo;ll actually use — my
-          setup, my uniform, my daily carry. I made this site so you can see
-          exactly what I&rsquo;d spend on, and if you&rsquo;d rather just send a
-          little help, I&rsquo;ll put it straight toward these. Either way, it
-          becomes my reason to work and study even harder.
+          Real things I&rsquo;ll use: my setup, my fits, my daily carry. Item or
+          money, it all becomes my reason to push harder.
         </p>
       </Reveal>
     </section>

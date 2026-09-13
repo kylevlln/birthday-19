@@ -16,9 +16,8 @@ export default function Payment() {
       </Reveal>
       <Reveal delay={0.16}>
         <p className="section-body">
-          Everything on the list is exactly where your help would go. If you&rsquo;d
-          rather send money than an object, scan the QR (or type the number below)
-          and it lands straight in my {config.payVia}.
+          Prefer money over stuff? Scan or type the number, it lands straight in
+          my {config.payVia}.
         </p>
       </Reveal>
 
@@ -39,7 +38,7 @@ export default function Payment() {
             <p className="pay-number">{config.accountNumber}</p>
             <p className="pay-note">{config.payNote}</p>
             <p className="pay-tiny">
-              Tip the number into GCash manually if scanning feels fancy.
+              Finding &ldquo;send money&rdquo; is half the fun. Typing the number works too.
             </p>
           </div>
         </div>

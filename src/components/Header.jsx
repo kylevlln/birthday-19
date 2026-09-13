@@ -71,16 +71,15 @@ export default function Header() {
 
         <Reveal delay={0.08}>
           <h1 className="hero-h1">
-            A little wishlist for my 19th — where every{" "}
-            <span className="hl">gift</span> helps.
+            A tiny wishlist where every{" "}
+            <span className="hl">gift</span> helps
           </h1>
         </Reveal>
 
         <Reveal delay={0.16}>
           <p className="hero-desc">
-            I built this little corner of the internet so you can peek at the
-            small things I&rsquo;m saving for — and so you know exactly where
-            your help would go.
+            Peek at what I&rsquo;m saving for, and know exactly where your help
+            goes.
           </p>
         </Reveal>
 
@@ -91,7 +90,7 @@ export default function Header() {
               <CountdownChip value={t.days} label="days" />
               <CountdownChip value={t.hours} label="hrs" />
               <CountdownChip value={t.minutes} label="min" />
-              <CountdownChip value={t.seconds} label="sec" />
+              <CountdownChip key={t.seconds} value={t.seconds} label="sec" />
             </div>
           </div>
         </Reveal>
@@ -100,6 +99,9 @@ export default function Header() {
           <span className="spark s1">✦</span>
           <span className="spark s2">✧</span>
           <span className="spark s3">✦</span>
+          <span className="spark s4">✧</span>
+          <span className="spark s5">✦</span>
+          <span className="flower-doodle">✿</span>
         </div>
       </header>
     </>
