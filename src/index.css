@@ -345,6 +345,47 @@ body {
   }
 }
 
+/* ---------------- side decorations ---------------- */
+
+.side-doodles {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.sd {
+  position: absolute;
+  line-height: 1;
+  opacity: 0.9;
+  text-shadow: 0 0 2px rgba(63, 123, 180, 0.18);
+  animation: floatSide 7s ease-in-out infinite;
+}
+
+.sd-left {
+  left: 16px;
+}
+
+.sd-right {
+  right: 16px;
+}
+
+@keyframes floatSide {
+  0%,
+  100% {
+    transform: rotate(var(--r, 0deg)) translateY(0);
+  }
+  50% {
+    transform: rotate(var(--r, 0deg)) translateY(-14px);
+  }
+}
+
+@media (max-width: 1100px) {
+  .side-doodles {
+    display: none;
+  }
+}
+
 /* ---------------- sections ---------------- */
 
 .section {
@@ -391,45 +432,6 @@ body {
 
 .mot {
   padding-top: 20px;
-}
-
-/* marquee strip */
-
-.marquee {
-  margin-top: 72px;
-  overflow: hidden;
-  padding: 12px 0;
-  border-top: 2px dashed var(--line);
-  border-bottom: 2px dashed var(--line);
-}
-
-.marquee-track {
-  display: flex;
-  width: max-content;
-  gap: 38px;
-  animation: scrollX 26s linear infinite;
-}
-
-.marquee-track span {
-  display: inline-flex;
-  align-items: center;
-  gap: 38px;
-  font-family: var(--font-hand);
-  font-weight: 700;
-  font-size: 25px;
-  color: var(--blue);
-  white-space: nowrap;
-  letter-spacing: 0.04em;
-}
-
-.marquee-star {
-  color: var(--yellow);
-}
-
-@keyframes scrollX {
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 /* ---------------- featured (big one) ---------------- */
@@ -1102,11 +1104,6 @@ body {
 
   .pay-number {
     font-size: 1.5rem;
-  }
-
-  .marquee-track span {
-    font-size: 20px;
-    gap: 30px;
   }
 
   .proof-card {

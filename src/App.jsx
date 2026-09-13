@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import Motivation from "./components/Motivation"
-import Marquee from "./components/Marquee"
+import SideDoodles from "./components/SideDoodles"
 import Wishlist from "./components/Wishlist"
 import Grades from "./components/Grades"
 import Payment from "./components/Payment"
@@ -20,13 +20,13 @@ export default function App() {
               <Header />
               <main>
                 <Motivation />
-                <Marquee />
                 <Wishlist />
                 <Grades />
                 <Payment />
                 <Proof />
               </main>
               <Footer />
+              <SideDoodles />
             </>
           }
         />
