@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import Motivation from "./components/Motivation"
-import SideDoodles from "./components/SideDoodles"
+import Critters from "./components/Critters"
 import Wishlist from "./components/Wishlist"
 import Grades from "./components/Grades"
 import Payment from "./components/Payment"
@@ -26,7 +26,7 @@ export default function App() {
                 <Proof />
               </main>
               <Footer />
-              <SideDoodles />
+              <Critters />
             </>
           }
         />

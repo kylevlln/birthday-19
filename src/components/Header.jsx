@@ -31,7 +31,7 @@ export default function Header() {
               go("#top")
             }}
           >
-            spence&rsquo;s 19<sup>✿</sup>
+            spence&rsquo;s 19
           </a>
           <div className="nav-links">
             {[
@@ -101,7 +101,7 @@ export default function Header() {
           <span className="spark s3">✦</span>
           <span className="spark s4">✧</span>
           <span className="spark s5">✦</span>
-          <span className="flower-doodle">✿</span>
+          <span className="hero-doodle">✦</span>
         </div>
       </header>
     </>
