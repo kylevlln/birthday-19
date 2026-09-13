@@ -27,4 +27,6 @@ dist-ssr
 GradecardReport*.pdf
 gradecardreport*.png
 
-defense.jpg
+# Stray defense photo copies at repo root (bundled copy lives in src/assets)
+/defense.jpg
+/defense (2).jpg

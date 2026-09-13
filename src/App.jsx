@@ -5,6 +5,7 @@ import Marquee from "./components/Marquee"
 import Wishlist from "./components/Wishlist"
 import Grades from "./components/Grades"
 import Payment from "./components/Payment"
+import Proof from "./components/Proof"
 import Footer from "./components/Footer"
 import Privacy from "./components/Privacy"
 
@@ -23,6 +24,7 @@ export default function App() {
                 <Wishlist />
                 <Grades />
                 <Payment />
+                <Proof />
               </main>
               <Footer />
             </>
