@@ -26,3 +26,5 @@ dist-ssr
 # Personal grade reports (contains student ID - never commit)
 GradecardReport*.pdf
 gradecardreport*.png
+
+defense.jpg
